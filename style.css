@@ -1,0 +1,41 @@
+
+.topic{
+    text-align: center;
+    color: rgb(129, 67, 67);
+}
+.container{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    padding: 1rem 4%;
+    background-color: brown;
+}
+.box{
+    background-color: rgba(0, 0, 0, 0.2);
+    height: 18rem;
+    width: 19rem;
+    padding: 0.5rem 0.5rem;
+    /* margin-top: 40px; */
+    margin: 6px;
+}
+.button{
+    height: 30px;
+    width: 250px;
+    margin: 30px;
+    border-radius: 10px;
+    background-color: rgb(241, 141, 11);
+    border-style: none;
+    color: white;
+}
+.media{
+    padding-top: 20px;
+    color: aliceblue;
+}
+.pic{
+    height: 50px;
+    width: 50px;
+}
+.m-p{
+    padding-top: 20px;
+    color: aliceblue;
+    font-size: 25px;
+}
